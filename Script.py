@@ -233,21 +233,18 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} 🎉 Fresh Movie Update Alert! 🎉</a></b>
+🔰<b>{filename}</b> ✅
+<blockquote>🎧 <b>(language}</b>
+📀<b>{quality}</b>
+🎭: <b>{genres}</b>
+📺<b>[there></b>
+<b>💬 Subtitles included in files</b></blockquote>
 
-
-🎥 Movie: {movie_name}
-🗓 Released: {year}
-⭐ IMDb: {rating}/10
-🎬 Quality: {quality}
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-
-📌 Tap the button below to download.
-
+<pre>📌 To Get Files Send exact spelling in our groups given below
 Stay tuned for more updates! 🔔
 """
 
-
+    
     IMDB_TEMPLATE_TXT = """
 <b>query: {query}
 IMDB Data:
